@@ -7,8 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA5BDFB31FD0797D00C6257D /* ClothingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5BDFB21FD0797D00C6257D /* ClothingController.swift */; };
+		BA5BDFB41FD0797D00C6257D /* ClothingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5BDFB21FD0797D00C6257D /* ClothingController.swift */; };
+		BAC7C97A1FCB396300C05F87 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C9791FCB396300C05F87 /* PersonModel.swift */; };
+		BAC7C97B1FCB396300C05F87 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C9791FCB396300C05F87 /* PersonModel.swift */; };
+		BAC7C97E1FCB39D000C05F87 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC7C97C1FCB39D000C05F87 /* RealmSwift.framework */; };
+		BAC7C97F1FCB39D000C05F87 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BAC7C97C1FCB39D000C05F87 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BAC7C9801FCB39D000C05F87 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC7C97D1FCB39D000C05F87 /* Realm.framework */; };
+		BAC7C9811FCB39D000C05F87 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BAC7C97D1FCB39D000C05F87 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BAC7C9841FCB3C8B00C05F87 /* ClothingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C9831FCB3C8B00C05F87 /* ClothingModel.swift */; };
+		BAC7C9851FCB3C8B00C05F87 /* ClothingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C9831FCB3C8B00C05F87 /* ClothingModel.swift */; };
+		BAC7C9871FCB3D7C00C05F87 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C9861FCB3D7C00C05F87 /* RealmManager.swift */; };
+		BAC7C9881FCB3D7C00C05F87 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C9861FCB3D7C00C05F87 /* RealmManager.swift */; };
+		BAC7C98A1FCB40AD00C05F87 /* AddPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C9891FCB40AD00C05F87 /* AddPersonViewController.swift */; };
+		BAC7C98B1FCB40AD00C05F87 /* AddPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C9891FCB40AD00C05F87 /* AddPersonViewController.swift */; };
+		BAC7C98D1FCB419400C05F87 /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C98C1FCB419400C05F87 /* PersonController.swift */; };
+		BAC7C98E1FCB419400C05F87 /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C98C1FCB419400C05F87 /* PersonController.swift */; };
+		BAC7C9911FCB42C200C05F87 /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C9901FCB42C200C05F87 /* ImageController.swift */; };
+		BAC7C9921FCB42C200C05F87 /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C9901FCB42C200C05F87 /* ImageController.swift */; };
+		BAC7C9941FCB45F900C05F87 /* PeopleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C9931FCB45F900C05F87 /* PeopleTableViewController.swift */; };
+		BAC7C9951FCB45F900C05F87 /* PeopleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C9931FCB45F900C05F87 /* PeopleTableViewController.swift */; };
+		BAC7C9971FCB49D700C05F87 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C9961FCB49D700C05F87 /* PersonCell.swift */; };
+		BAC7C9981FCB49D700C05F87 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C9961FCB49D700C05F87 /* PersonCell.swift */; };
+		BAC7C99A1FCB4AE700C05F87 /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C9991FCB4AE700C05F87 /* PersonDetailsViewController.swift */; };
+		BAC7C99B1FCB4AE700C05F87 /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C9991FCB4AE700C05F87 /* PersonDetailsViewController.swift */; };
 		BADB13D51FC9F4EA00C6413B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADB13D41FC9F4EA00C6413B /* AppDelegate.swift */; };
-		BADB13D71FC9F4EA00C6413B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADB13D61FC9F4EA00C6413B /* ViewController.swift */; };
 		BADB13DA1FC9F4EA00C6413B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADB13D81FC9F4EA00C6413B /* Main.storyboard */; };
 		BADB13DC1FC9F4EA00C6413B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BADB13DB1FC9F4EA00C6413B /* Assets.xcassets */; };
 		BADB13DF1FC9F4EA00C6413B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADB13DD1FC9F4EA00C6413B /* LaunchScreen.storyboard */; };
@@ -25,10 +48,36 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BADB13FB1FC9F63B00C6413B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BAC7C9811FCB39D000C05F87 /* Realm.framework in Embed Frameworks */,
+				BAC7C97F1FCB39D000C05F87 /* RealmSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		BA5BDFB21FD0797D00C6257D /* ClothingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingController.swift; sourceTree = "<group>"; };
+		BAC7C9791FCB396300C05F87 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		BAC7C97C1FCB39D000C05F87 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		BAC7C97D1FCB39D000C05F87 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		BAC7C9831FCB3C8B00C05F87 /* ClothingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingModel.swift; sourceTree = "<group>"; };
+		BAC7C9861FCB3D7C00C05F87 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		BAC7C9891FCB40AD00C05F87 /* AddPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonViewController.swift; sourceTree = "<group>"; };
+		BAC7C98C1FCB419400C05F87 /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
+		BAC7C9901FCB42C200C05F87 /* ImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
+		BAC7C9931FCB45F900C05F87 /* PeopleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTableViewController.swift; sourceTree = "<group>"; };
+		BAC7C9961FCB49D700C05F87 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		BAC7C9991FCB4AE700C05F87 /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
 		BADB13D11FC9F4EA00C6413B /* My Closet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Closet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BADB13D41FC9F4EA00C6413B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BADB13D61FC9F4EA00C6413B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BADB13D91FC9F4EA00C6413B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BADB13DB1FC9F4EA00C6413B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BADB13DE1FC9F4EA00C6413B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC7C9801FCB39D000C05F87 /* Realm.framework in Frameworks */,
+				BAC7C97E1FCB39D000C05F87 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +107,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BAC7C9761FCB38D500C05F87 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BAC7C9861FCB3D7C00C05F87 /* RealmManager.swift */,
+				BAC7C98C1FCB419400C05F87 /* PersonController.swift */,
+				BA5BDFB21FD0797D00C6257D /* ClothingController.swift */,
+				BAC7C9901FCB42C200C05F87 /* ImageController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BAC7C9771FCB38E200C05F87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAC7C9791FCB396300C05F87 /* PersonModel.swift */,
+				BAC7C9831FCB3C8B00C05F87 /* ClothingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAC7C9781FCB38E800C05F87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BAC7C9961FCB49D700C05F87 /* PersonCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BAC7C98F1FCB421C00C05F87 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BAC7C9891FCB40AD00C05F87 /* AddPersonViewController.swift */,
+				BAC7C9931FCB45F900C05F87 /* PeopleTableViewController.swift */,
+				BAC7C9991FCB4AE700C05F87 /* PersonDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		BADB13C81FC9F4EA00C6413B = {
 			isa = PBXGroup;
 			children = (
+				BADB13FC1FC9F64100C6413B /* Frameworks */,
 				BADB13D31FC9F4EA00C6413B /* My Closet */,
 				BADB13E81FC9F4EA00C6413B /* My ClosetTests */,
 				BADB13D21FC9F4EA00C6413B /* Products */,
@@ -77,8 +167,11 @@
 		BADB13D31FC9F4EA00C6413B /* My Closet */ = {
 			isa = PBXGroup;
 			children = (
+				BAC7C98F1FCB421C00C05F87 /* ViewControllers */,
+				BAC7C9781FCB38E800C05F87 /* View */,
+				BAC7C9771FCB38E200C05F87 /* Model */,
+				BAC7C9761FCB38D500C05F87 /* Controllers */,
 				BADB13D41FC9F4EA00C6413B /* AppDelegate.swift */,
-				BADB13D61FC9F4EA00C6413B /* ViewController.swift */,
 				BADB13D81FC9F4EA00C6413B /* Main.storyboard */,
 				BADB13DB1FC9F4EA00C6413B /* Assets.xcassets */,
 				BADB13DD1FC9F4EA00C6413B /* LaunchScreen.storyboard */,
@@ -96,6 +189,15 @@
 			path = "My ClosetTests";
 			sourceTree = "<group>";
 		};
+		BADB13FC1FC9F64100C6413B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAC7C97D1FCB39D000C05F87 /* Realm.framework */,
+				BAC7C97C1FCB39D000C05F87 /* RealmSwift.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +208,8 @@
 				BADB13CD1FC9F4EA00C6413B /* Sources */,
 				BADB13CE1FC9F4EA00C6413B /* Frameworks */,
 				BADB13CF1FC9F4EA00C6413B /* Resources */,
+				BADB13FB1FC9F63B00C6413B /* Embed Frameworks */,
+				BAC7C9821FCB3BF700C05F87 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -194,13 +298,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BAC7C9821FCB3BF700C05F87 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BADB13CD1FC9F4EA00C6413B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BADB13D71FC9F4EA00C6413B /* ViewController.swift in Sources */,
+				BAC7C99A1FCB4AE700C05F87 /* PersonDetailsViewController.swift in Sources */,
+				BAC7C9911FCB42C200C05F87 /* ImageController.swift in Sources */,
+				BAC7C97A1FCB396300C05F87 /* PersonModel.swift in Sources */,
+				BA5BDFB31FD0797D00C6257D /* ClothingController.swift in Sources */,
+				BAC7C9871FCB3D7C00C05F87 /* RealmManager.swift in Sources */,
+				BAC7C9971FCB49D700C05F87 /* PersonCell.swift in Sources */,
 				BADB13D51FC9F4EA00C6413B /* AppDelegate.swift in Sources */,
+				BAC7C9841FCB3C8B00C05F87 /* ClothingModel.swift in Sources */,
+				BAC7C98D1FCB419400C05F87 /* PersonController.swift in Sources */,
+				BAC7C9941FCB45F900C05F87 /* PeopleTableViewController.swift in Sources */,
+				BAC7C98A1FCB40AD00C05F87 /* AddPersonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +337,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC7C99B1FCB4AE700C05F87 /* PersonDetailsViewController.swift in Sources */,
+				BAC7C9921FCB42C200C05F87 /* ImageController.swift in Sources */,
+				BAC7C97B1FCB396300C05F87 /* PersonModel.swift in Sources */,
+				BA5BDFB41FD0797D00C6257D /* ClothingController.swift in Sources */,
+				BAC7C9881FCB3D7C00C05F87 /* RealmManager.swift in Sources */,
+				BAC7C9981FCB49D700C05F87 /* PersonCell.swift in Sources */,
 				BADB13EA1FC9F4EA00C6413B /* My_ClosetTests.swift in Sources */,
+				BAC7C9851FCB3C8B00C05F87 /* ClothingModel.swift in Sources */,
+				BAC7C98E1FCB419400C05F87 /* PersonController.swift in Sources */,
+				BAC7C9951FCB45F900C05F87 /* PeopleTableViewController.swift in Sources */,
+				BAC7C98B1FCB40AD00C05F87 /* AddPersonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +494,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M77G4VQ69B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = "My Closet/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewcurtner.My-Closet";
@@ -370,6 +514,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M77G4VQ69B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = "My Closet/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewcurtner.My-Closet";
@@ -386,6 +535,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M77G4VQ69B;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks";
 				INFOPLIST_FILE = "My ClosetTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewcurtner.My-ClosetTests";
@@ -403,6 +553,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M77G4VQ69B;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks";
 				INFOPLIST_FILE = "My ClosetTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewcurtner.My-ClosetTests";
