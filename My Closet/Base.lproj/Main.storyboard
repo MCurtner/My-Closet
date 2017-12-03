@@ -108,6 +108,46 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pY7-av-PXj">
+                                <rect key="frame" x="0.0" y="244" width="375" height="534"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96068006753921509" green="0.96084433794021606" blue="0.96066969633102417" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ClothingCell" rowHeight="80" id="dwz-Ub-Kil" customClass="ClothingCell" customModule="My_Closet" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dwz-Ub-Kil" id="Dob-hq-gYI" customClass="ClothingCell" customModule="My_Closet" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="79.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fP0-Jb-536">
+                                                    <rect key="frame" x="35" y="0.0" width="325" height="34"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="34" id="yhp-mc-WUK"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="21"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="fP0-Jb-536" firstAttribute="centerX" secondItem="Dob-hq-gYI" secondAttribute="centerX" constant="10" id="JEz-IM-kPQ"/>
+                                                <constraint firstItem="fP0-Jb-536" firstAttribute="centerY" secondItem="Dob-hq-gYI" secondAttribute="centerY" constant="-22.833333333333336" id="Qhr-1a-mzq"/>
+                                                <constraint firstItem="fP0-Jb-536" firstAttribute="leading" secondItem="Dob-hq-gYI" secondAttribute="leading" constant="35" id="UkE-AN-3gS"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.96068006750000001" green="0.96084433790000001" blue="0.96066969629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <outlet property="clothingItem" destination="fP0-Jb-536" id="few-P2-WB9"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="hQh-pY-ijg" id="Q8g-QL-SKf"/>
+                                    <outlet property="delegate" destination="hQh-pY-ijg" id="NGU-vN-oZH"/>
+                                    <outlet property="prefetchDataSource" destination="hQh-pY-ijg" id="7Jf-g0-8aq"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.96068006753921509" green="0.96084433794021606" blue="0.96066969633102417" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -120,6 +160,7 @@
                         <viewLayoutGuide key="safeArea" id="yTS-Km-OSp"/>
                     </view>
                     <connections>
+                        <outlet property="clothingTable" destination="pY7-av-PXj" id="hrK-Ry-NAX"/>
                         <outlet property="nameLabel" destination="Kg4-2l-TYa" id="lrw-X5-sOC"/>
                         <outlet property="picture" destination="npd-pi-f9H" id="cmf-yG-aei"/>
                     </connections>
@@ -148,7 +189,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="385" y="197"/>
+            <point key="canvasLocation" x="385" y="421"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Xxw-Tr-XGH">
@@ -184,7 +225,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wv6-Po-Zfz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-519" y="198"/>
+            <point key="canvasLocation" x="-520" y="421"/>
         </scene>
     </scenes>
 </document>

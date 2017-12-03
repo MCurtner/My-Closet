@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BA5BDFB31FD0797D00C6257D /* ClothingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5BDFB21FD0797D00C6257D /* ClothingController.swift */; };
 		BA5BDFB41FD0797D00C6257D /* ClothingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5BDFB21FD0797D00C6257D /* ClothingController.swift */; };
+		BAA1DEDD1FD48A9B00036DB2 /* ClothingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA1DEDC1FD48A9B00036DB2 /* ClothingCell.swift */; };
+		BAA1DEDE1FD48A9B00036DB2 /* ClothingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA1DEDC1FD48A9B00036DB2 /* ClothingCell.swift */; };
 		BAC7C97A1FCB396300C05F87 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C9791FCB396300C05F87 /* PersonModel.swift */; };
 		BAC7C97B1FCB396300C05F87 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C9791FCB396300C05F87 /* PersonModel.swift */; };
 		BAC7C97E1FCB39D000C05F87 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC7C97C1FCB39D000C05F87 /* RealmSwift.framework */; };
@@ -65,6 +67,7 @@
 
 /* Begin PBXFileReference section */
 		BA5BDFB21FD0797D00C6257D /* ClothingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingController.swift; sourceTree = "<group>"; };
+		BAA1DEDC1FD48A9B00036DB2 /* ClothingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingCell.swift; sourceTree = "<group>"; };
 		BAC7C9791FCB396300C05F87 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
 		BAC7C97C1FCB39D000C05F87 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 		BAC7C97D1FCB39D000C05F87 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
@@ -131,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				BAC7C9961FCB49D700C05F87 /* PersonCell.swift */,
+				BAA1DEDC1FD48A9B00036DB2 /* ClothingCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -320,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAC7C99A1FCB4AE700C05F87 /* PersonDetailsViewController.swift in Sources */,
+				BAA1DEDD1FD48A9B00036DB2 /* ClothingCell.swift in Sources */,
 				BAC7C9911FCB42C200C05F87 /* ImageController.swift in Sources */,
 				BAC7C97A1FCB396300C05F87 /* PersonModel.swift in Sources */,
 				BA5BDFB31FD0797D00C6257D /* ClothingController.swift in Sources */,
@@ -338,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAC7C99B1FCB4AE700C05F87 /* PersonDetailsViewController.swift in Sources */,
+				BAA1DEDE1FD48A9B00036DB2 /* ClothingCell.swift in Sources */,
 				BAC7C9921FCB42C200C05F87 /* ImageController.swift in Sources */,
 				BAC7C97B1FCB396300C05F87 /* PersonModel.swift in Sources */,
 				BA5BDFB41FD0797D00C6257D /* ClothingController.swift in Sources */,

@@ -21,8 +21,8 @@ class PeopleTableViewController: UITableViewController {
         // Temporary! Will Delete
         pc.deleteAll()
         pc.createNewPerson(name: "Matthew", gender: .Male, picture: UIImage(named: "rhino"), clothingName: nil, clothingSize: nil)
-        pc.createNewPerson(name: "April", gender: .Female, picture: nil, clothingName: nil, clothingSize: "2")
-        pc.createNewPerson(name: "Beth", gender: .Female, picture: nil, clothingName: "shirt", clothingSize: "2")
+        pc.createNewPerson(name: "April", gender: .Female, picture: nil, clothingName: "Pants", clothingSize: "12")
+        pc.createNewPerson(name: "Beth", gender: .Female, picture: nil, clothingName: "Shirt", clothingSize: "2")
 
         // Populate the local array with realm results of people
         people = pc.retrieveStoredPersons()
