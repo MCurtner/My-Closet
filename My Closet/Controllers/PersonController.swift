@@ -11,13 +11,13 @@ import UIKit
 class PersonController {
     
     // Create an instance of the RealmManager
-    var rm = RealmManager()
+    private var rm = RealmManager()
     
     // Create an instance of the ImageController
-    var imageController = ImageController()
+    private var imageController = ImageController()
     
     // Create an instance of the ClothingController
-    var cc = ClothingController()
+    private var cc = ClothingController()
     
     // MARK: - Person - Creation
     /// Creates and stores a new person in the database.

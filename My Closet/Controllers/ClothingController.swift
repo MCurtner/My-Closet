@@ -11,14 +11,14 @@ import UIKit
 class ClothingController {
     
     // Create a RealmManager instance
-    var rm = RealmManager()
+    //private var rm = RealmManager()
     
     /// Creates a new clothing object.
     ///
     /// - Parameters:
     ///   - name: Clothing item name
     ///   - size: Clothing size
-    /// - Returns: New clothing object based on imput parameters
+    /// - Returns: New clothing object based on input parameters
     func createNewClothing(name: String, size: String) -> Clothing {
         let clothing = Clothing()
         clothing.name = name

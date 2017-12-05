@@ -29,6 +29,16 @@ class PeopleTableViewController: UITableViewController {
         print(people)
 
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // Update the people array
+        people = pc.retrieveStoredPersons()
+        
+        // Reload the tableview to show updates
+        tableView.reloadData()
+    }
 
     // MARK: - Table view data source
 
@@ -65,7 +75,6 @@ class PeopleTableViewController: UITableViewController {
             tableView.deleteRows(at: [indexPath], with: .fade)
         }
     }
-
     
     // MARK: - Navigation
 
@@ -83,6 +92,5 @@ class PeopleTableViewController: UITableViewController {
                 vc.person = people[(indexPath?.row)!]
             }
         }
-
     }
 }

@@ -10,8 +10,15 @@ import UIKit
 
 class ImageController {
     
-    let DEFAULT_IMAGE: UIImage = UIImage(named: "default")!
+    // The default image to use if no image is provided
+    private let DEFAULT_IMAGE: UIImage = UIImage(named: "default")!
     
+    
+    /// Convert the parameter UIImage; either a new image or the default image,
+    /// to Data object for storage in Realm.
+    ///
+    /// - Parameter image: Optional UIImage
+    /// - Returns: UIImagePNGRepresentation of the parameter UIImage or the default image
     func convertImageToData(image: UIImage?) -> Data {
         if image != nil {
             return UIImagePNGRepresentation(image!)!
@@ -20,6 +27,10 @@ class ImageController {
         }
     }
     
+    /// Convert the stored image data back to a UIImage
+    ///
+    /// - Parameter data: Data object store in realm
+    /// - Returns: UIImage
     func convertDataToImage(data: Data?) -> UIImage {
         if data != nil {
             return UIImage(data: data!)!
@@ -28,6 +39,9 @@ class ImageController {
         }
     }
     
+    /// Creates the outer image circle based on the image's width
+    ///
+    /// - Parameter imageView: UIImage to create the circle layer on.
     func createImageCirle(imageView: UIImageView) {
         imageView.layer.cornerRadius = imageView.frame.size.width/2
         imageView.layer.masksToBounds = true

@@ -13,7 +13,7 @@ class PersonCell: UITableViewCell {
     @IBOutlet weak var cellPicture: UIImageView!
     @IBOutlet weak var cellName: UILabel!
 
-    var ic = ImageController()
+    private var ic = ImageController()
     
     override func awakeFromNib() {
         super.awakeFromNib()
