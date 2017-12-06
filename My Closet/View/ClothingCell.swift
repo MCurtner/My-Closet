@@ -21,5 +21,4 @@ class ClothingCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
     }
-
 }

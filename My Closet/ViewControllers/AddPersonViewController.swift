@@ -49,11 +49,22 @@ class AddPersonViewController: UIViewController {
             gender = .Male
         }
         
+        // Check if name field is not empty.
+        guard nameTextField.text?.isEmpty == false else {
+            // Display Alert
+            // TODO:
+            assertionFailure("Missing Alert that name is empty")
+            
+            // Return if name field is empty
+            return
+        }
+        
         // Create and store the person in Realm
         pc.createNewPerson(name: nameTextField.text!, gender: gender, picture: personImageView.image, clothingName: nil, clothingSize: nil)
         
         // Dismiss the Modal ViewController
         dismiss(animated: true, completion: nil)
     }
+
 }
 

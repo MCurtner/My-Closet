@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BA5BDFB31FD0797D00C6257D /* ClothingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5BDFB21FD0797D00C6257D /* ClothingController.swift */; };
 		BA5BDFB41FD0797D00C6257D /* ClothingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5BDFB21FD0797D00C6257D /* ClothingController.swift */; };
+		BA600EA31FD848A2004846A9 /* UserInputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA600EA21FD848A2004846A9 /* UserInputTextField.swift */; };
+		BA600EA41FD848A2004846A9 /* UserInputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA600EA21FD848A2004846A9 /* UserInputTextField.swift */; };
 		BAA1DEDD1FD48A9B00036DB2 /* ClothingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA1DEDC1FD48A9B00036DB2 /* ClothingCell.swift */; };
 		BAA1DEDE1FD48A9B00036DB2 /* ClothingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA1DEDC1FD48A9B00036DB2 /* ClothingCell.swift */; };
 		BAC7C97A1FCB396300C05F87 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C9791FCB396300C05F87 /* PersonModel.swift */; };
@@ -67,6 +69,7 @@
 
 /* Begin PBXFileReference section */
 		BA5BDFB21FD0797D00C6257D /* ClothingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingController.swift; sourceTree = "<group>"; };
+		BA600EA21FD848A2004846A9 /* UserInputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputTextField.swift; sourceTree = "<group>"; };
 		BAA1DEDC1FD48A9B00036DB2 /* ClothingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingCell.swift; sourceTree = "<group>"; };
 		BAC7C9791FCB396300C05F87 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
 		BAC7C97C1FCB39D000C05F87 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
@@ -135,6 +138,7 @@
 			children = (
 				BAC7C9961FCB49D700C05F87 /* PersonCell.swift */,
 				BAA1DEDC1FD48A9B00036DB2 /* ClothingCell.swift */,
+				BA600EA21FD848A2004846A9 /* UserInputTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -328,6 +332,7 @@
 				BAC7C9911FCB42C200C05F87 /* ImageController.swift in Sources */,
 				BAC7C97A1FCB396300C05F87 /* PersonModel.swift in Sources */,
 				BA5BDFB31FD0797D00C6257D /* ClothingController.swift in Sources */,
+				BA600EA31FD848A2004846A9 /* UserInputTextField.swift in Sources */,
 				BAC7C9871FCB3D7C00C05F87 /* RealmManager.swift in Sources */,
 				BAC7C9971FCB49D700C05F87 /* PersonCell.swift in Sources */,
 				BADB13D51FC9F4EA00C6413B /* AppDelegate.swift in Sources */,
@@ -347,6 +352,7 @@
 				BAC7C9921FCB42C200C05F87 /* ImageController.swift in Sources */,
 				BAC7C97B1FCB396300C05F87 /* PersonModel.swift in Sources */,
 				BA5BDFB41FD0797D00C6257D /* ClothingController.swift in Sources */,
+				BA600EA41FD848A2004846A9 /* UserInputTextField.swift in Sources */,
 				BAC7C9881FCB3D7C00C05F87 /* RealmManager.swift in Sources */,
 				BAC7C9981FCB49D700C05F87 /* PersonCell.swift in Sources */,
 				BADB13EA1FC9F4EA00C6413B /* My_ClosetTests.swift in Sources */,
